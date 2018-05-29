@@ -1,0 +1,6 @@
+framework module Pods_Farguita {
+  umbrella header "Pods-Farguita-umbrella.h"
+
+  export *
+  module * { export * }
+}
