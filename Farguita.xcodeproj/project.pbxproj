@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		875211956D85F24031B2D059 /* Pods_Farguita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFB8809E3D4EEE0C8332008 /* Pods_Farguita.framework */; };
+		E2A8BCF520BD99E4001765B2 /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8BCF420BD99E4001765B2 /* NearByViewController.swift */; };
 		E2E80FAE20BD8E76001C8DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E80FAD20BD8E76001C8DE4 /* AppDelegate.swift */; };
 		E2E80FB020BD8E76001C8DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E80FAF20BD8E76001C8DE4 /* ViewController.swift */; };
 		E2E80FB320BD8E77001C8DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E80FB120BD8E76001C8DE4 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		0941652B14C2997C09DE9DE3 /* Pods-Farguita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farguita.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Farguita/Pods-Farguita.debug.xcconfig"; sourceTree = "<group>"; };
 		4EFB8809E3D4EEE0C8332008 /* Pods_Farguita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Farguita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A162D4705FD576CD469953 /* Pods-Farguita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farguita.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farguita/Pods-Farguita.release.xcconfig"; sourceTree = "<group>"; };
+		E2A8BCF420BD99E4001765B2 /* NearByViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
 		E2E80FAA20BD8E76001C8DE4 /* Farguita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farguita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E80FAD20BD8E76001C8DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2E80FAF20BD8E76001C8DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				E2E80FB920BD8E77001C8DE4 /* LaunchScreen.storyboard */,
 				E2E80FBC20BD8E77001C8DE4 /* Info.plist */,
 				E2E80FB420BD8E77001C8DE4 /* Farguita.xcdatamodeld */,
+				E2A8BCF420BD99E4001765B2 /* NearByViewController.swift */,
 			);
 			path = Farguita;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2E80FB620BD8E77001C8DE4 /* Farguita.xcdatamodeld in Sources */,
+				E2A8BCF520BD99E4001765B2 /* NearByViewController.swift in Sources */,
 				E2E80FB020BD8E76001C8DE4 /* ViewController.swift in Sources */,
 				E2E80FAE20BD8E76001C8DE4 /* AppDelegate.swift in Sources */,
 			);
@@ -391,6 +395,7 @@
 				E2E80FC120BD8E77001C8DE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
